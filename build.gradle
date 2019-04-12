@@ -8,14 +8,20 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.9
 
-/*
+//add this to use java -jar command!
 jar {
     manifest {
         attributes('Implementation-Title': 'Gradle fundamentals',
-                'Implementation-Version': version)
+                   'Implementation-Version': version,
+                   'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'HelloWorld')
+
     }
 }
-*/
+
+
+
+
 repositories {
     mavenCentral()
 }
