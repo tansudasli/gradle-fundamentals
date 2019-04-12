@@ -21,7 +21,8 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
      }
      
      mainClassName = 'HelloWorld'  #add this
-- [5] if you try to run w/ `java -jar ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar `, you will get error message **no main manifest attribute, in ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar** <br><br>So, you should add below lines into your lines in your **build.gradle** file<br>
+- [5] if you try to run w/ `java -jar ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar `, you will get error message **no main manifest attribute, in ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar** 
+      <br><br>So, you should add below lines into your lines in your **build.gradle** file<br>
    ```
    jar {
        manifest {
