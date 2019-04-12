@@ -35,4 +35,3 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
    
        }
    }
-- [6]
