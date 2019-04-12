@@ -3,8 +3,8 @@
 It is really hard to practise some basic concepts of gradle esp. when it comes to
 * multiple modules in same IntelliJ Project
 * multiple projects in same IntelliJ Workspace
-* no main manifest attribute, error when executing jars
-* no run task in gradle menu
+* no main manifest attribute, error when executing jars (step 5)
+* no run task in gradle menu (step 4)
 
 ## How To Start
 - [1] clone repository
