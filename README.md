@@ -12,6 +12,11 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
 - [3]  To start testing, you should first run 
        <br>`./gradlew clean` and 
        <br>`./gradlew build` to create **/build/** folder. This creates **/build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar** file.
-- [4] to run application `./gradlew run`. You will see console messages successfully. 
-- [5] if you try to run w/ `java -jar ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar `, you will get error message *no main manifest attribute, in ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar
-*
+- [4] to run application `./gradlew run`. You will see console messages successfully. <br>
+  to be able to to do that, you need some additional lines in your **build.gradle** file.<br>
+     ```plugins {
+         id 'java'
+         id 'application'
+     }
+- [5] if you try to run w/ `java -jar ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar `, you will get error message **no main manifest attribute, in ./build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar**
+- [6]
