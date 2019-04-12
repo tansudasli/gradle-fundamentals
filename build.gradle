@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'application'
+
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.9
+
+/*
+jar {
+    manifest {
+        attributes('Implementation-Title': 'Gradle fundamentals',
+                'Implementation-Version': version)
+    }
+}
+*/
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    //compile
+    //runtime
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile('org.junit.jupiter:junit-jupiter-api:5.2.0')
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.2.0')
+
+    testRuntime('org.junit.jupiter:junit-jupiter-engine:5.2.0')
+
+}
+
+/*
+sourceSets {
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
+} */
+
+mainClassName = 'HelloWorld'
+
+task hi << {
+    description 'to see some parameter values'
+
+    println ant
+    println buildDir
+}
