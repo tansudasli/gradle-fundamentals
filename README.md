@@ -6,6 +6,9 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
 * no main manifest attribute, error when executing jars (step 5)
 * no run task in gradle menu (step 4)
 
+<br>
+This package contains, basic HelloWorld.java and some simple Test cases.
+
 ## How To Start
 - [1] clone repository
 - [2] `cd gradle-fundamentals `
