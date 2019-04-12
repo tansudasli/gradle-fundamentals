@@ -4,6 +4,7 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
 * multiple modules in same IntelliJ Project
 * multiple projects in same IntelliJ Workspace
 * no main manifest attribute, error when executing jars
+* no run task in gradle menu
 
 ## How To Start
 - [1] clone repository
@@ -12,8 +13,9 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
 - [3]  To start testing, you should first run 
        <br>`./gradlew clean` to delete everything under **/build/** folder, and 
        <br>`./gradlew build` to create **/build/** folder. This creates **/build/libs/gradle.fundamentals-1.0-SNAPSHOT.jar** file.
-- [4] to run application `./gradlew run`. You will see console messages successfully. <br>
-  <br>to be able to to do that, you need some additional lines in your **build.gradle** file.<br>
+- [4] to run application `./gradlew run`. This also **shows Run task in Gradle menu**<br>
+  You will see console messages successfully. <br><br>
+  to be able to to do that, you need some additional lines in your **build.gradle** file.<br>
      ```
      plugins {
          id 'java'
