@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HelloWorldTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-12T08:52:04" hostname="Tansus-MBP" time="0.018">
+<testsuite name="HelloWorldTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-12T09:18:37" hostname="Tansus-MBP" time="0.011">
   <properties/>
-  <testcase name="method()" classname="HelloWorldTest" time="0.018"/>
+  <testcase name="method()" classname="HelloWorldTest" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
