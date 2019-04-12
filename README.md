@@ -7,7 +7,7 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
 * no run task in gradle menu (step 4)
 
 <br>
-This package contains, basic HelloWorld.java and some simple Test cases.
+This package contains, basic HelloWorld.java and some simple test cases in HelloWorldTest.java. So gradle builds, and run test cases, if passes then creates jar files.
 
 ## How To Start
 - [1] clone repository
