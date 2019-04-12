@@ -1,13 +1,15 @@
 # GRADLE FUNDAMENTALS
 
 It is really hard to practise some basic concepts of gradle esp. when it comes to
-* multiple modules in same IntelliJ Project
-* multiple projects in same IntelliJ Workspace
-* no main manifest attribute, error when executing jars (step 5)
-* no run task in gradle menu (step 4)
+
+- [ ] multiple modules in same IntelliJ Project (w/ separate gradle or 1 central settings.gradle)
+- [ ] multiple projects in same IntelliJ Workspace (w/ separate gradle or 1 central settings.gradle)
+- [x] no main manifest attribute, error when executing jars (step 5)
+- [x] no run task in gradle menu (step 4)
 
 <br>
-This package contains, basic HelloWorld.java and some simple test cases in HelloWorldTest.java. So gradle builds, and run test cases, if passes then creates jar files.
+This package contains, basic HelloWorld.java and some simple test cases in HelloWorldTest.java. 
+So gradle builds, and run test cases, if passes then creates jar files.
 
 ## How To Start
 - [1] clone repository
