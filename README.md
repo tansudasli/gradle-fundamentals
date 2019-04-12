@@ -29,7 +29,7 @@ It is really hard to practise some basic concepts of gradle esp. when it comes t
            attributes('Implementation-Title': 'Gradle fundamentals',
                       'Implementation-Version': version,
                       'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-                   'Main-Class': 'HelloWorld')
+                      'Main-Class': 'HelloWorld')
    
        }
    }
