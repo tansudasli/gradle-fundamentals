@@ -19,7 +19,7 @@ jar {
     }
 }
 
-
+print("dddd:" + configurations.compile.collect { it.getName() })
 
 
 repositories {
